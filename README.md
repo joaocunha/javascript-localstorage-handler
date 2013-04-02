@@ -1,7 +1,7 @@
 JavaScript LocalStorage Handler
 ===========================
 
-A simple, library independent constructor for easing HTML5 LocalStorage handling with JavaScript.
+A simple, library independent constructor for easing HTML5 LocalStorage API handling with JavaScript.
 
 It extends the native LocalStorage API methods allowing for object and array saving and retrieving, returning useful information when called and some more awesomeness.
 
@@ -26,7 +26,7 @@ console.log(lsh.clear()); // 1
 ## Base constructor
 
 ### `LocalStorageHandler`
-Extends the `window.localStorage` object.
+Extends the `window.localStorage` API.
 
 #### Public Methods
 
