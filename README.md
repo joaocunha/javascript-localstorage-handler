@@ -7,6 +7,22 @@ It extends the native LocalStorage API methods allowing for object and array sav
 
 *This is my first repo, so any criticism would be appreciated.*
 
+## Usage
+```js
+var lsh = new LocalStorageHandler();
+console.log(lsh.set('fruit', 'orange')); // 'orange'
+console.log(lsh.set('person', {name: 'Bob', age: 27})); // {name: 'Bob', age: 27}
+console.log(lsh.key(0)); // 'fruit'
+console.log(lsh.get('person')); // {name: 'Bob', age: 27}
+console.log(lsh.data()); // [['fruit', 'orange'], ['person', {name: 'Bob', age: 27}]]
+console.log(lsh.length); // 2
+console.log(lsh.remove(3)); // false
+console.log(lsh.remove('person')); // true
+console.log(lsh.length); // 1
+console.log(lsh.data()); // ['fruit', 'orange']
+console.log(lsh.clear()); // 1
+```
+
 ## Base constructor
 
 ### `LocalStorageHandler`
