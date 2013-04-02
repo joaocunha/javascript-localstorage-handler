@@ -19,7 +19,7 @@ console.log(lsh.length); // 2
 console.log(lsh.remove(3)); // false
 console.log(lsh.remove('person')); // true
 console.log(lsh.length); // 1
-console.log(lsh.data()); // ['fruit', 'orange']
+console.log(lsh.data()); // [['fruit', 'orange']]
 console.log(lsh.clear()); // 1
 ```
 
@@ -44,7 +44,7 @@ Extends the native `window.localStorage.key()` method stricting its usage for in
 
 #### `LocalStorageHandler.data()`
 
-Implements a method which returns an array containing all of the items once saved on the LocalStorage (key-value pairs).
+Implements a method which returns a multidemensional array containing all of the items once saved on the LocalStorage (key-value pairs).
 
 #### `LocalStorageHandler.remove(key|index)`
 
