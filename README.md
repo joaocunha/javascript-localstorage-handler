@@ -5,7 +5,7 @@ A simple, library independent constructor for easing HTML5 LocalStorage handling
 
 It extends the native LocalStorage API methods allowing for object and array saving and retrieving, returning useful information when called and some more awesomeness.
 
-This is my first repo, so any criticism would be appreciated.
+*This is my first repo, so any criticism would be appreciated.*
 
 ## Base constructor
 
