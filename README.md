@@ -16,15 +16,15 @@ Extends the `window.localStorage` object.
 
 #### `LocalStorageHandler.get(key)`
 
-Extends the default `window.localStorage.getItem()` method allowing for object and array retrieving.
+Extends the native `window.localStorage.getItem()` method allowing for object and array retrieving.
 
 #### `LocalStorageHandler.set(key, val)`
 
-Extends the default `window.localStorage.setItem()` method allowing for object and array saving, plus returning the saved element.
+Extends the native `window.localStorage.setItem()` method allowing for object and array saving, plus returning the saved element.
 
 #### `LocalStorageHandler.key(index)`
 
-Extends the default `window.localStorage.key()` method stricting its usage for indexes only.
+Extends the native `window.localStorage.key()` method stricting its usage for indexes only.
 
 #### `LocalStorageHandler.data()`
 
@@ -32,11 +32,11 @@ Implements a method which returns an array containing all of the items once save
 
 #### `LocalStorageHandler.remove(key|index)`
 
-Extends the default `window.localStorage.remove()` method allowing for deletion based on index number as well. Returns true if the key was found before deletion, false if not.
+Extends the native `window.localStorage.remove()` method allowing for deletion based on index number as well. Returns true if the key was found before deletion, false if not.
 
 #### `LocalStorageHandler.clear()`
 
-Extends the default `window.localStorage.clear()` method returning the total of items cleared.
+Extends the native `window.localStorage.clear()` method returning the total of items cleared.
 
 ## TODO
 
