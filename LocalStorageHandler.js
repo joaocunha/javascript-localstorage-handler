@@ -40,11 +40,7 @@ var LocalStorageHandler = function() {
 	 * @return {String|Object} The value of the item just set
 	 */
 	this.set = function(key, val) {
-		if (typeof val === 'object') {
-			val = JSON.stringify(val);
-		}
-		
-		_ls.setItem(key,val);
+		_ls.setItem(key,JSON.stringify(val));
 		return this.get(key);
 	};
 	
