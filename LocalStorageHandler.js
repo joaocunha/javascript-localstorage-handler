@@ -1,6 +1,7 @@
 /**
  * A class for easing HTML5 LocalStorage handling. Licensed under CC BY 3.0.
- *
+ * https://github.com/joaocunha/javascript-localstorage-handler/
+ * 
  * @author João Cunha - joao@joaocunha.net
  * @class LocalStorageHandler
  * @constructor
