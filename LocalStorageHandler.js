@@ -6,7 +6,7 @@
  * @class LocalStorageHandler
  * @constructor
  */
-;(function(window, undefined) {
+;(function(win, undefined) {
     'use strict'
 
     var LocalStorageHandler = function() {
@@ -16,7 +16,7 @@
          * @private
          * @type Object
          */
-        var _ls = window.localStorage;
+        var _ls = win.localStorage;
 
         /**
          * @property length
