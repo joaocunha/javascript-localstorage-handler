@@ -6,8 +6,8 @@
  * @class LocalStorageHandler
  * @constructor
  */
-;(function(win, undefined) {
-    'use strict'
+;(function(win) {
+    'use strict';
 
     var LocalStorageHandler = function() {
 
@@ -103,4 +103,4 @@
         };
     }
 
-})(window, undefined);
+})(window);
